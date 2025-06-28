@@ -8,6 +8,7 @@ make crawling modules based on Scrapy(HTTP) for me or my stakeholders
 3. (Must) 유틸 디렉토리에는 모든 스파이더에서 사용될 수 있는 기능만 작성해야한다. 각 도메인 별 유틸 함수는 spider와 같은 위치에 관리한다.
 4. (Must) Item 클래스는 수집하는 변수만 선언해 완전하게 관리한다. 
 5. (Should) 다음 콜백 함수에 전달하는 데이터를 전달하기 위해선 cb_kwargs을 사용하되, 하나의 인스턴스만 사용한다.
+6. (Must) Call Flow는 User Flow를 모방한다.
 
 #### Item Class
 1. (Should) Call Depth 별로 1개의 Data Class를 관리하는 걸 권장한다.
@@ -21,6 +22,7 @@ make crawling modules based on Scrapy(HTTP) for me or my stakeholders
 3. (Must) Only functions that can be used by all spiders should be written in the Util directory. Each domain-specific utility function is managed in the same place as the spider.
 4. (Must) The Item class is completely managed by declaring only the variables it collects.
 5. (Should) Use cb_kwargs to pass data to the following callback functions, but use only one instance.
+6. (Must) Call Flow must impersonate User Flow.
 
 #### Item Class
 1. (Should) It is recommended to manage one Data Class per Call Depth.
