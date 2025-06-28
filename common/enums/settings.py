@@ -8,6 +8,7 @@ class SystemSettings(ConstantEnum):
     OBJECTIVE = auto()
     STRATEGY = auto()
     MODE = auto()
+    TZ = auto()
 
 
 class SpiderSettings(ConstantEnum):
