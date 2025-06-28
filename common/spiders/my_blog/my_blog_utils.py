@@ -50,7 +50,9 @@ class MyBlogHtmlExtractor:
             item.post_name = post_info.css("h2.post_title::text").get(default="").strip()
             item.post_content_summary = post_info.css("p.post_text::text").get(default="").strip()
             item.post_url = f"{MyBlogUrls.HOME}{item.post_id}"
-            item.post_thumbnail = f"https:{post_info.css('div.thumnail>img::attr(src)').get()}"
+
+            if post_info.css("div.thumnail>img::attr(src)").get():
+                item.post_thumbnail = f"https:{post_info.css('div.thumnail>img::attr(src)').get()}"
 
             post_list_info = post_info.css("ul.post_list")
             item.post_category = post_list_info.css("span.post_category_name::text").get(default="").strip()
