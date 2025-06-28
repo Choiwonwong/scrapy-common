@@ -28,7 +28,7 @@ make crawling modules based on Scrapy(HTTP) for me or my stakeholders
 3. (Must) Only one class should be involved in the Result Schema.
 
 ## Code Quality
-his project uses [Ruff](https://github.com/astral-sh/ruff) for code formatting and linting.
+this project uses [Ruff](https://github.com/astral-sh/ruff) for code formatting and linting.
 
 ```bash
 # Install development dependencies
