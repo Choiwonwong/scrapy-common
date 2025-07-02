@@ -69,7 +69,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.32.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-file-2.1.0-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service_identity-24.2.0-hd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
@@ -141,7 +141,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/readline-8.2-h7cca4af_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.32.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-file-2.1.0-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service_identity-24.2.0-hd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
@@ -212,7 +212,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/readline-8.2-h1d1bf99_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.32.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-file-2.1.0-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service_identity-24.2.0-hd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
@@ -280,7 +280,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/queuelib-1.8.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.32.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-file-2.1.0-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/service_identity-24.2.0-hd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
@@ -1867,9 +1867,9 @@ packages:
   - pkg:pypi/requests-file?source=hash-mapping
   size: 10303
   timestamp: 1734343847489
-- conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.0-pyhd8ed1ab_0.conda
-  sha256: eec0e1731b2c6f411104df40dfd0b93889899f987011ba29d303634c58f09cf0
-  md5: 253daa422f9aba28e847752b2199c858
+- conda: https://conda.anaconda.org/conda-forge/noarch/scrapy-2.13.2-pyhd8ed1ab_0.conda
+  sha256: 73c5a5d8474c3acbe7e1a48076e023a15ce2d3eec275176e15bbdae5a4061cf1
+  md5: eb3c33d2fb02d6ee396fe800765c6110
   depends:
   - cryptography >=37.0.0
   - cssselect >=0.9.1
@@ -1891,10 +1891,8 @@ packages:
   - w3lib >=1.17.0
   - zope.interface >=5.1.0
   license: BSD-3-Clause-Clear
-  purls:
-  - pkg:pypi/scrapy?source=hash-mapping
-  size: 674665
-  timestamp: 1746700224506
+  size: 674831
+  timestamp: 1749469314789
 - conda: https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda
   sha256: 7d99c6f72ed8a883fba3a04c108288f4e7320e86ea7e86d8821f071cb33190af
   md5: 019e3e9f833650d6607b8f3120d5e972

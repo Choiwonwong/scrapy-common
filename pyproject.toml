@@ -47,4 +47,4 @@ platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
 [tool.pixi.tasks]
 
 [tool.pixi.dependencies]
-scrapy = "==2.13.3"
+scrapy = "==2.13.2"
