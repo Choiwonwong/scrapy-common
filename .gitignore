@@ -93,4 +93,5 @@ ENV/
 
 # .csv
 
-*.csv
+*.csv# pixi environments
+.pixi

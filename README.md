@@ -40,3 +40,6 @@ pip install ruff
 ruff format .
 ruff check --fix .
 ```
+
+## Pakaging
+this project use [Pixi](https://pixi.sh/latest/)
