@@ -21,7 +21,7 @@ select = [
     "I",   # isort
     "B",   # flake8-bugbear
     "UP",  # pyupgrade
-    "Q",   # flake8-quotes (따옴표 통일)
+    "Q",   # flake8-quotes
 ]
 ignore = [
     "E501",  # line too long
@@ -48,3 +48,4 @@ platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
 
 [tool.pixi.dependencies]
 scrapy = "==2.13.2"
+pixi-pycharm = ">=0.0.8,<0.0.9"
