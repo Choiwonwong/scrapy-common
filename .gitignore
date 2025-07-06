@@ -92,6 +92,6 @@ ENV/
 .idea/
 
 # .csv
-
-*.csv# pixi environments
+*.csv
+# pixi environments
 .pixi

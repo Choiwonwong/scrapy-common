@@ -15,7 +15,7 @@ def run_spider(spider_name: str):
         {
             output_file: {
                 "format": "csv",
-                "encoding": "utf8",
+                "encoding": "utf-8-sig",
                 "overwrite": True,
             }
         },

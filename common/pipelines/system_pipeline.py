@@ -1,4 +1,5 @@
 from copy import deepcopy
+# noinspection PyUnresolvedReferences
 from multiprocessing import Value
 
 from scrapy.crawler import Crawler
@@ -60,7 +61,7 @@ class SystemPipeline:
             custom_date_time=custom_date_time,
         )
 
-    def process_item(self, item, spider):
+    def process_item(self, item, spider): # noqa
         if self.activated:
             return self._process_item(item)
         return item
